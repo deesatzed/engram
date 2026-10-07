@@ -1,0 +1,23 @@
+# Engram macOS Configuration
+[general]
+app_name = "Engram"
+version = "1.0.0"
+log_level = "INFO"
+
+[paths]
+screenshot_watch_dir = "~/Desktop/Screenshots"
+screenshot_trash_dir = "~/Desktop/Screenshots/_Trash_Review"
+screenshot_archive_dir = "~/Desktop/Screenshots/Organized"
+evernote_import_dir = "~/Evernote_Imports"
+google_drive_vault = "~/Google Drive/My Drive/Engram_Vault"
+state_file = "~/.engram/session_state.json"
+
+[thresholds]
+heavy_file_mb = 10.0
+session_stitch_seconds = 60
+hash_threshold = 4
+
+[ai]
+vision_backend = "gemini"
+gemini_model = "gemini-2.5-flash"
+mlx_endpoint = "http://localhost:8000/v1"

@@ -1,0 +1,16 @@
+{
+  "lifecycle": {
+    "R": "Reference (Keep permanently)",
+    "A": "Action / Todo / Expiring",
+    "F": "Financial / Billing / Receipt",
+    "P": "Project / Active Build"
+  },
+  "format": {
+    "L": "License / Credential / Official ID",
+    "S": "Settings / UI Configuration",
+    "C": "Code / SQL / Terminal / Architecture",
+    "D": "Document / Text / Policy",
+    "P": "Paper / Academic / Article",
+    "T": "Table / Chart / Metrics"
+  }
+}
